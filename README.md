@@ -1,11 +1,10 @@
 # Projeto-Final-Bootcamp-DS
 Repositório para o projeto final do bootcamp de datascience da Alura
 
-
-
 # Bibliografia:
-
 [Diferença de SVM para Logistic Regression](https://medium.com/axum-labs/logistic-regression-vs-support-vector-machines-svm-c335610a3d16)
+
+# Documentação:
 
 [FeatureWiz](https://github.com/AutoViML/featurewiz)
 
