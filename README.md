@@ -1,9 +1,6 @@
+# Projeto Final Bootcamp Data Science aplicada
 
-# Projeto-Final-Bootcamp-DS
-
-Repositório do projeto final do bootcamp de datascience aplicado da Alura
-
-Projeto de datascience para o ultimo modulo do bootcamp de datascience aplicada como requisito para certificação.
+Projeto de data science para o ultimo modulo do bootcamp de data science aplicada como requisito para certificação.
 
 # Problemática:
 
@@ -16,6 +13,13 @@ Por falta de conhecimento de como tratar da doença, os hospitais viram seus lei
 Nosso objetivo que guiou o estudo é prever os pacientes que necessitaram de UTI de forma antecipada com a aplicação de modelos de machine learning. Para que com isso possam ser tomadas ações de dimensionamento de leitos, de funcionários e tentar remanejar pacientes que não correm risco para outros hospitais aos quais teriam leitos disponível afim de atender todas as pessoas necessitadas de cuidados médicos. 
 
 # Escopo do projeto:
+
+O desenvolvimento do trabalho foi dividido em 2 notebooks: 
+
+* [Tratamento e analise dos dados;](https://github.com/kaicque/Projeto-Final-Bootcamp-DS/blob/main/Notebooks/Tratamento_dados.ipynb)
+* [Desenvolvimento do modelo de machine learning.](https://github.com/kaicque/Projeto-Final-Bootcamp-DS/blob/main/Notebooks/Machine_Learning.ipynb)
+
+E os dados utilizados podem ser encontrados no repositório do [git](https://github.com/kaicque/Projeto-Final-Bootcamp-DS/tree/main/Dados)
 
 ## Dados para analise:
 
@@ -52,14 +56,48 @@ A conclusão é que os dados dos que foram ou não para UTI estavam bem próximo
 ## Teste de modelos de machine learning e melhoria de performance:
 
 
-Para iniciar o projeto de machine learning, foi utilizado a biblioteca ***LazyPredict*** para analisar os melhores candidatos a melhores modelos de machine learning para esse conjunto de dados trabalhados.
+Para iniciar o projeto de machine learning, foi utilizado a biblioteca ***LazyPredict*** para analisar melhores candidatos a  modelos de machine learning com maior taxa de precisão para esse conjunto de dados trabalhado.
 
-foram criadas algumas funções para facilitar a testagem dos modelos
+Após o uso do LazyPredict, foi filtrado os 5 melhores modelos considerando os indicadores de precisão dos modelos. Como tivemos empate para o 2º e 3º lugar, foi escolhidos os seguintes **3** modelos com o intuito de diferenciar o modo de funcionamento de cada um.
+
+Os modelos foram:
+* XGBClassifier
+* LogisticRegression
+* ExtraTreesClassifier
+
+Para facilitar o estudo dos modelos, foi elaborada algumas funções para automatizar a execução e conferência dos modelos. 
+
+O roteiro de analise dos modelos foi organizado da seguinte forma para padronizar a execução:
+-   Acurácia, AUC e Classification report
+-   Matriz de confusão do modelo
+-   Cross Validation
+-   Gráfico da Curva ROC
+
+Após a primeira bateria de teste dos modelos, com o intuito de buscar melhores resultados nos modelos, foi utilizado a biblioteca ***featurewiz***, que faz uma analise da combinação de colunas de dados e faz uma proposta de quais usar no modelo. 
 
 ## Resultados dos modelos de machine learning:
 
-## Conclusão:
+Com os resultados dos modelos e suas pontuações de precisão, foi visto que mesmo antes da utilização do ***featurewiz***, o modelo **ExtraTreesClassifier** apresentava os melhores resultados. Obtendo a **acurácia** de **81%** ele foi considerado o melhor modelo de machine learning entre os testados. 
 
+
+# Conclusão:
+
+Mesmo obtendo os melhores resultados e uma taxa de falso positivo e falso negativo relativamente baixos, nosso objetivo que é ter uma assertividade de 100%, e ele não foi atendido em sua totalidade. Como estamos tratando de vidas e os erros podem levar o paciente a óbito. 
+
+Por isso é indicado cautela na implementação do modelo em produção. 
+
+Em busca de melhores resultados, é proposto próximos passos para melhorar o resultado obtido:
+-   Inclusão de outras janelas de tempo em que o paciente está no hospital.
+-   Reavaliar juntamente com um especialista de enfermagem a exclusão das colunas com auto correlação. 
+
+# Agradecimentos:
+Primeiramente meu imenso agradecimento a todo o time da Alura, por tornar esse estudo e desafio possível.
+
+Ao Scuba Team por toda a disponibilidade e auxilio nas dúvidas e desesperos no decorrer do curso. 
+
+Aos professores pelo empenho e didática que tornaram a minha entrada no mundo de Data Science menos dolorosa, mesmo sem conhecimento prévio de python e o mundo de programação. 
+
+E por ultimo, mas não menos importante, meu muito obrigado a todos os colegas de curso que interagiram no discord possibilitando a interação, ajuda e referência no decorrer do curso.
 
 
 # Referência e documentação:
