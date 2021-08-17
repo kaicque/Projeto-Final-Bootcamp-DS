@@ -115,6 +115,8 @@ E por ultimo, mas não menos importante, meu muito obrigado a todos os colegas d
 
 
 # Referência e documentação:
+[Desafio no Kaggle](https://www.kaggle.com/S%C3%ADrio-Libanes/covid19)
+
 [Diferença de SVM para Logistic Regression](https://medium.com/axum-labs/logistic-regression-vs-support-vector-machines-svm-c335610a3d16)
 
 [AUC: A Better Measure than Accuracy in Comparing Learning Algorithms](https://link.springer.com/chapter/10.1007/3-540-44886-1_25)
