@@ -1,3 +1,4 @@
+![Capa](https://github.com/kaicque/Projeto-Final-Bootcamp-DS/blob/main/Imagens/Capa.jpg)
 # Projeto Final Bootcamp Data Science aplicada
 
 Projeto de data science para o ultimo modulo do bootcamp de data science aplicada como requisito para certificação.
