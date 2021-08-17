@@ -2,6 +2,25 @@
 
 Projeto de data science para o ultimo modulo do bootcamp de data science aplicada como requisito para certificação.
 
+Indice:
+- [Problemática](https://github.com/kaicque/Projeto-Final-Bootcamp-DS#problem%C3%A1tica)
+- [Objetivo do trabalho](https://github.com/kaicque/Projeto-Final-Bootcamp-DS#objetivo-do-trabalho)
+- [Escopo do projeto](https://github.com/kaicque/Projeto-Final-Bootcamp-DS/blob/main/README.md#escopo-do-projeto)
+- - [Dados para analise](https://github.com/kaicque/Projeto-Final-Bootcamp-DS#dados-para-analise)
+- - [Ciclo de análise e tratamento dos dados](https://github.com/kaicque/Projeto-Final-Bootcamp-DS#ciclo-de-an%C3%A1lise-e-tratamento-dos-dados)
+- - [Teste de modelos de machine learning e melhoria de performance](https://github.com/kaicque/Projeto-Final-Bootcamp-DS#teste-de-modelos-de-machine-learning-e-melhoria-de-performance)
+- - [Resultados dos modelos de machine learning](https://github.com/kaicque/Projeto-Final-Bootcamp-DS#resultados-dos-modelos-de-machine-learning)
+- [Conclusão](https://github.com/kaicque/Projeto-Final-Bootcamp-DS#conclus%C3%A3o)
+- [Agradecimentos](https://github.com/kaicque/Projeto-Final-Bootcamp-DS#agradecimentos)
+- [Referência e documentação](https://github.com/kaicque/Projeto-Final-Bootcamp-DS#refer%C3%AAncia-e-documenta%C3%A7%C3%A3o)
+
+
+
+
+https://github.com/kaicque/Projeto-Final-Bootcamp-DS/blob/main/README.md#escopo-do-projeto
+
+
+
 # Problemática:
 
 A pandemia causada pela doença da covid-19 fez com que o todo o mundo tomasse ações de isolamento nunca antes visto. Para evitar o contágio de uma doença sem registro histórico foi tomada a ação de isolamento social/quarentena. Mas isso não foi o suficiente para evitasse o contágio da população e a necessidade de cuidados médicos. 
