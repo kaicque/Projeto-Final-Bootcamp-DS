@@ -1,3 +1,4 @@
+![Capa](https://github.com/kaicque/Projeto-Final-Bootcamp-DS/blob/main/Imagens/Capa.jpg)
 # Projeto Final Bootcamp Data Science aplicada
 
 Projeto de data science para o ultimo modulo do bootcamp de data science aplicada como requisito para certificação.
@@ -13,12 +14,6 @@ Indice:
 - [Conclusão](https://github.com/kaicque/Projeto-Final-Bootcamp-DS#conclus%C3%A3o)
 - [Agradecimentos](https://github.com/kaicque/Projeto-Final-Bootcamp-DS#agradecimentos)
 - [Referência e documentação](https://github.com/kaicque/Projeto-Final-Bootcamp-DS#refer%C3%AAncia-e-documenta%C3%A7%C3%A3o)
-
-
-
-
-https://github.com/kaicque/Projeto-Final-Bootcamp-DS/blob/main/README.md#escopo-do-projeto
-
 
 
 # Problemática:
@@ -120,6 +115,8 @@ E por ultimo, mas não menos importante, meu muito obrigado a todos os colegas d
 
 
 # Referência e documentação:
+[Desafio no Kaggle](https://www.kaggle.com/S%C3%ADrio-Libanes/covid19)
+
 [Diferença de SVM para Logistic Regression](https://medium.com/axum-labs/logistic-regression-vs-support-vector-machines-svm-c335610a3d16)
 
 [AUC: A Better Measure than Accuracy in Comparing Learning Algorithms](https://link.springer.com/chapter/10.1007/3-540-44886-1_25)
