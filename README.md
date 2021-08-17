@@ -16,12 +16,6 @@ Indice:
 - [Referência e documentação](https://github.com/kaicque/Projeto-Final-Bootcamp-DS#refer%C3%AAncia-e-documenta%C3%A7%C3%A3o)
 
 
-
-
-https://github.com/kaicque/Projeto-Final-Bootcamp-DS/blob/main/README.md#escopo-do-projeto
-
-
-
 # Problemática:
 
 A pandemia causada pela doença da covid-19 fez com que o todo o mundo tomasse ações de isolamento nunca antes visto. Para evitar o contágio de uma doença sem registro histórico foi tomada a ação de isolamento social/quarentena. Mas isso não foi o suficiente para evitasse o contágio da população e a necessidade de cuidados médicos. 
