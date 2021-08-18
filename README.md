@@ -22,9 +22,15 @@ A pandemia causada pela doença da covid-19 fez com que o todo o mundo tomasse a
 
 Por falta de conhecimento de como tratar da doença, os hospitais viram seus leitos de UTI alcançarem níveis de lotação nunca antes praticados. Infelizmente em decorrência da doença e da lotação de UTI, muitas pessoas perderam suas vidas ou pessoas queridas. 
 
+Exemplificando a problemática, podemos ver a curva de uso da capacidade de leitos de UTI. A primeira e efetiva ação foi o isolamento social, caso contrário, com todas as UTIs lotadas, teríamos um número exponencial de óbitos registrados.
+
+![curva_leitos](https://github.com/kaicque/Projeto-Final-Bootcamp-DS/blob/main/Imagens/curva_leitos.jpg)
+
+
 # Objetivo do trabalho:
 
 Nosso objetivo que guiou o estudo é prever os pacientes que necessitaram de UTI de forma antecipada com a aplicação de modelos de machine learning. Para que com isso possam ser tomadas ações de dimensionamento de leitos, de funcionários e tentar remanejar pacientes que não correm risco para outros hospitais aos quais teriam leitos disponível afim de atender todas as pessoas necessitadas de cuidados médicos. 
+
 
 # Escopo do projeto:
 
@@ -48,6 +54,16 @@ Os dados disponibilizados contam com:
 * Intervalo de tempo em que o paciente ficou no hospital (01 - coluna)
 * Confirmação da necessidade de internação (01 - coluna)
 
+O intervalo  de tempo em  que o paciente ficou no hospital foi agrupado da seguinte forma:
+
+|Window  |Description  |
+|--|--|
+|0-2 | From 0 to 2 hours of the admission |
+|2-4 | From 2 to 4 hours of the admission |
+|4-6 | From 4 to 6 hours of the admission |
+|6-12 | From 6 to 12 hours of the admission |
+|Above-12 | Above 12 hours from admission |
+
 Além disso os dados, foram expandido quando pertinente à média, mediana, máximo, mínimo, diferença e diferença relativa.
 
 No total a base de dados contem 1925 linhas que conta a história do período em que o paciente ficou no hospital.
@@ -57,6 +73,12 @@ No total a base de dados contem 1925 linhas que conta a história do período em
 Como nosso objetivo é prever de forma antecipada qual paciente necessitará de internação, foi filtrada somente a primeira janela de tempo em que o paciente ficou no hospital. 
 
 Além do filtro de janela em que o paciente ficou no hospital, foram retirados da base os pacientes que foram para a UTI na primeira janela a fim de cumprir com o requisito de antecipar quais pacientes iriam precisar de UTI nas próximas janelas de tempo. 
+
+Premissas de quais dados poderiam ou não ser considerado no modelo de acordo com o desafio:
+![janela_premissa1](https://github.com/kaicque/Projeto-Final-Bootcamp-DS/blob/main/Imagens/janela_premissa1.png)
+
+![janela_premissa2](https://github.com/kaicque/Projeto-Final-Bootcamp-DS/blob/main/Imagens/janela_premissa2.png)
+
 
 Na descrição da base de dados no [Kaggle](https://www.kaggle.com/S%C3%ADrio-Libanes/covid19) cita que os pacientes onde não tiveram mudanças significativas nos resultados de exames entre uma janela e outra, foi deixado em branco. Por conta disso foi tratados os dados para preencher os dados faltantes com o resultado de exames anteriores ou posteriores, nessa ordem. 
 
