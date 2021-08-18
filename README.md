@@ -96,7 +96,7 @@ Com os resultados dos modelos e suas pontuações de precisão, foi visto que me
 
 # Conclusão:
 
-Mesmo obtendo os melhores resultados e uma taxa de falso positivo e falso negativo relativamente baixos, nosso objetivo que é ter uma assertividade de 100%, e ele não foi atendido em sua totalidade. Como estamos tratando de vidas e os erros podem levar o paciente a óbito. 
+Mesmo obtendo os melhores resultados e uma taxa de falso positivo e falso negativo relativamente baixos, nosso objetivo que é ter uma assertividade de 100%, e ele não foi atendido em sua totalidade. E como estamos tratando de vidas, erros podem levar o paciente a óbito. 
 
 Por isso é indicado cautela na implementação do modelo em produção. 
 
