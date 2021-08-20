@@ -1,3 +1,4 @@
+
 ![Capa](https://github.com/kaicque/Projeto-Final-Bootcamp-DS/blob/main/Imagens/Capa.jpg)
 # Projeto Final Bootcamp Data Science aplicada
 
@@ -29,7 +30,7 @@ Exemplificando a problemática, podemos ver a curva de uso da capacidade de leit
 
 # Objetivo do trabalho:
 
-Nosso objetivo que guiou o estudo é prever os pacientes que necessitaram de UTI de forma antecipada com a aplicação de modelos de machine learning. Para que com isso possam ser tomadas ações de dimensionamento de leitos, de funcionários e tentar remanejar pacientes que não correm risco para outros hospitais aos quais teriam leitos disponível afim de atender todas as pessoas necessitadas de cuidados médicos. 
+Nosso desafio que guiou o estudo é prever os pacientes que necessitam de UTI de forma antecipada com a aplicação de modelos de machine learning. Para que com isso possam ser tomadas ações de dimensionamento de leitos, de funcionários e tentar remanejar pacientes que não correm risco para outros hospitais aos quais teriam leitos disponível afim de atender todas as pessoas necessitadas de cuidados médicos. 
 
 
 # Escopo do projeto:
@@ -138,6 +139,8 @@ E por ultimo, mas não menos importante, meu muito obrigado a todos os colegas d
 
 # Referência e documentação:
 [Desafio no Kaggle](https://www.kaggle.com/S%C3%ADrio-Libanes/covid19)
+
+[Hospitais particulares de SP atinge 100% de ocupação de UTI](https://exame.com/brasil/hospitais-particulares-de-sp-atingem-100-de-ocupacao-na-uti-para-covid/)
 
 [Diferença de SVM para Logistic Regression](https://medium.com/axum-labs/logistic-regression-vs-support-vector-machines-svm-c335610a3d16)
 
