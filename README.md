@@ -147,6 +147,7 @@ E por ultimo, mas não menos importante, meu muito obrigado a todos os colegas d
 [AUC: A Better Measure than Accuracy in Comparing Learning Algorithms](https://link.springer.com/chapter/10.1007/3-540-44886-1_25)
 
 Bibliotecas:
+
 [FeatureWiz](https://github.com/AutoViML/featurewiz)
 
 [LogisticRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
